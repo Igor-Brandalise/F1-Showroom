@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(131, 123, 113);
+  background-image: url(imagens/f1_logo-wallpaper-3840x2160.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  backdrop-filter: blur(5px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  place-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.795) 0px 22px 70px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 50px;
+  padding: .5em;
+  background-color: rgb(145, 143, 143);
+  margin: 1.5em;
+  height: 250px;
+  width: 250px;
+}
