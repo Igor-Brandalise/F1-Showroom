@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(131, 123, 113);
-  background-image: url(imagens/f1_logo-wallpaper-3840x2160.jpg);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -29,7 +29,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.274);
   border-radius: 50px;
   padding: .5em;
-  background-color: rgb(145, 143, 143);
+  background-color: rgb(219, 209, 209);
   margin: 1.5em;
   height: 250px;
   width: 250px;
